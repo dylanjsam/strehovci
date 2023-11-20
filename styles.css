@@ -1,124 +1,16 @@
-
 body {
-    display: flex;
-    flex-direction: column;
-    margin: 0;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #fff4e9;
 }
 
 .header {
-    background-color: #1f2937;
-    display: flex;
-    justify-content: space-between;
-    padding-left: 300px;
-    padding-right: 300px;
-    align-items: center;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
-    color: #f9faf8;
-    font-weight: bold;
-    height: 60px;
-    font-size: 24px;
-}
-
-.main1 {
-    background-color: #1f2937;
-    display: flex;
-    padding-left: 300px;
-    padding-right: 300px;
-    flex-wrap: nowrap;
-    height: 600px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    align-items: center;
-    justify-content: space-between;
-    gap: 0;
-}
-.left {
-    display: flex;
-    flex-direction: column;
-    width: 500px;
-    height: 300px;
-    text-align: left;
-    flex: 1;
-    padding-right: 100px;
-}
-.right {
-    display: flex;
-    height: 300px;
-    background-color: gray;
-    justify-content: center;
-    align-items: center;
-    margin: 0;
-    padding: 0;
-    flex: 1;
-    padding-left: 100px;
-}
-#title {
-    font-size: 48px;
-    font-weight: bolder;color: #f9faf8;
-    
-}
-
-.subtext {
-
-    font-size: 18px;
-    color: #e5e7eb;
-}
-
-.button {
-    flex: 0 0 auto;
-    background-color: #3882f6;
-    border-radius: 5px;
-    color: #e5e7eb;
-    font-size: 18px;
-    font-weight: bold;
-    width: 100px;
-    padding: 5px;
-    border: 0;
-}
-
-
-.main2 {
-    padding-top: 50px;
-    display: flex;
-    flex-direction: column;
-    height: 600px;
-    background-color: #f9faf8;
-    align-items: center;
-    padding-left: 300px;
-    padding-right: 300px;
-}
-
-.main2 .title {
-    font-size: 36px;
-    font-weight: bolder;
-    color: #1f2937;
-    margin-bottom: 50px;
-}
-
-.cards {
-    display: flex;
+    position: fixed;
+    top: 0;
+    left: 0;
     width: 100%;
-    font-size: 50px;
-    align-items: center;
-    justify-content: space-between;
-}
-
-.card1, .card2, .card3, .card4 {
+    height: 5vh;
+    background-color: #55a07a;
     display: flex;
-    color: gray;
     align-items: center;
-    justify-content: center;
-    height: 200px;
-    width: 200px;
-    border: 1px solid darkgray;
-    border-radius: 10px;
-}
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    display: flex;
-    gap: 30px;
-    font-size: 16px;
-    font-weight: normal;
+    background-image: linear-gradient(#55a07a, rgb(165, 245, 208));
+    box-shadow: 0px 1px 1px 1px lightblue;
 }
