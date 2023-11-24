@@ -1,5 +1,11 @@
+* {
+    border: 1px solid red;
+}
+
 body {
     background-color: #fff4e9;
+    margin: 0;
+    padding: 0;
 }
 
 .header {
@@ -13,4 +19,43 @@ body {
     align-items: center;
     background-image: linear-gradient(#55a07a, rgb(165, 245, 208));
     box-shadow: 0px 1px 1px 1px lightblue;
+    justify-content: center;
+    font-weight: bolder;
+    opacity: 0.8;
+}
+
+.main-body {
+    display: flex;
+    margin: 5vh;
+    margin-top: 10vh;
+    justify-content: space-between;
+    gap: 10vh;
+
+}
+
+.left {
+    background-color: rgba(69, 46, 7, 0.419);
+    height: 100vh;
+    flex: 2 0;
+    border-radius: 10px;
+}
+
+.center {
+    background-color: blueviolet;
+    height: 100vh;
+    flex: 3 0;
+    border-radius: 10px;
+
+}
+
+.footer {
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 20vh;
+    background-color: blue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
 }
